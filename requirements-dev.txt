@@ -1,0 +1,7 @@
+httpx
+pytest
+pytest-anyio
+ruff
+black      # optionnel si tu fais confiance à ruff format
+pytest-mock #Light Mocking on our test
+pyfakefs

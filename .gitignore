@@ -1,0 +1,47 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Fichiers de configuration sensibles
+.env
+.env.*
+!.env.example  # garde un exemple vide
+
+# Bases de données locales
+*.db
+*.sqlite3
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Coverage et tests
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Outils d'IDE
+.vscode/
+.idea/
+*.swp
+
+# Build & dist
+build/
+dist/
+*.egg-info/
+
+# Autres caches
+.mypy_cache/
+.cache/
+

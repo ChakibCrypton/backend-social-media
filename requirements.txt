@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+databases[aiosqlite]
+python-dotenv
+pydantic-settings
+rich
+asgi-correlation-id #Corre ID à chaque requete pour les différencier dans le logger
+python-json-logger
+logtail-python
+
+#JWT
+python-jose # Generate JWT
+python-multipart #Using form data 
+passlib[bcrypt] #To hash the user password and store in the database    
+
+aiofiles
+b2sdk
